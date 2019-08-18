@@ -10,7 +10,7 @@ def recaman(steps: int) -> Generator[int, None, None]:
     """
     previous = [0]
 
-    for step in range(1, steps):
+    for step in range(1, steps + 1):
         last = previous[-1]
         new = last - step
 
