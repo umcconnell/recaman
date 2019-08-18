@@ -107,3 +107,8 @@ This project is licensed under the MIT License - see the
 ## See also
 
 ## Acknowledgments
+
+-   [The Slightly Spooky Recamán Sequence - Numberphile](https://www.youtube.com/watch?v=FGC5TdIiT9U)
+-   [Recamán's Sequence - Wolfram MathWorld](http://mathworld.wolfram.com/RecamansSequence.html)
+-   [A005132 - OIES](https://oeis.org/A005132)
+-   [Sequence - Wikipedia](https://en.wikipedia.org/wiki/Sequence#Defining_a_sequence_by_recursion)
