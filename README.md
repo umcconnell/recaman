@@ -4,6 +4,7 @@ Visualize Recamán's sequence.
 
 ## Table of Contents
 
+-   [About](#about)
 -   [Getting Started](#getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Initial setup](#initial-setup)
@@ -14,6 +15,36 @@ Visualize Recamán's sequence.
 -   [License](#license)
 -   [See also](#see-also)
 -   [Acknowledgments](#acknowledgments)
+
+## About
+
+`0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9, 24, ...`
+
+Recamán's sequence ([A005132](https://oeis.org/A005132) in the OIES) was
+invented by Bernardo Recamán. It is generated with a simple rule:
+
+> "subtract if possible, otherwise add".
+
+Let's look at an example:
+
+1. We start with `0` and our step `1`
+2. `0 - 1` is `-1` so we add `1` and get the sequence `0, 1`
+3. We increment the step by one
+4. `1 - 2` is `-1` so we add `2` and get the sequence `0, 1, 3`
+5. and so on...
+
+For a good video-explanation, see [The Slightly Spooky Recamán Sequence](https://www.youtube.com/watch?v=FGC5TdIiT9U) from Numberphile.
+
+Formally, the sequence is defined as follows:
+
+![Formal definition](./static/formal-definition.svg)
+
+with a<sub>0</sub> = 0
+
+By drawing semi-circles to the according terms of the sequence, we recieve a
+nice visualization:
+
+![Visualization of Recamán's Sequence](./static/screenshot.png "Recamán's Sequence")
 
 ## Getting Started
 
