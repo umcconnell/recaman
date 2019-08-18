@@ -7,6 +7,7 @@ Visualize Recamán's sequence.
 -   [Getting Started](#getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Initial setup](#initial-setup)
+-   [Distributing](#distributing)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
@@ -30,6 +31,54 @@ information.
 
 A step by step series of examples that tell you how to get a virtual python
 environment running:
+
+Create your virtual environment:
+
+```bash
+python3 -m venv venv
+```
+
+Then activate your virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+To exit the virtual environment run
+
+```bash
+deactivate
+```
+
+## Distributing
+
+### Installing
+
+To get started, activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+Install the packages from `requirements.txt`:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+### Installing additional packages
+
+After activating the virtual environment, install your package(s)
+
+```bash
+pip3 install <package>
+```
+
+Then freeze your packages
+
+```bash
+pip3 freeze > requirements.txt
+```
 
 ## Contributing
 
@@ -58,4 +107,3 @@ This project is licensed under the MIT License - see the
 ## See also
 
 ## Acknowledgments
-
