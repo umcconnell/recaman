@@ -41,7 +41,7 @@ Formally, the sequence is defined as follows:
 
 with a<sub>0</sub> = 0
 
-By drawing semi-circles to the according terms of the sequence, we recieve a
+By drawing semi-circles to the according terms of the sequence, we receive a
 nice visualization:
 
 ![Visualization of Recamán's Sequence](./static/screenshot.png "Recamán's Sequence")
