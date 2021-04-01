@@ -3,7 +3,7 @@ autopep8==1.5.5
 isort==5.7.0
 lazy-object-proxy==1.6.0
 mccabe==0.6.1
-pycodestyle==2.6.0
+pycodestyle==2.7.0
 pylint==2.7.2
 rope==0.18.0
 six==1.15.0
