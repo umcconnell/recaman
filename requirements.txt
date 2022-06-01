@@ -8,4 +8,4 @@ pylint==2.13.7
 rope==1.0.0
 six==1.16.0
 typed-ast==1.5.3
-wrapt==1.14.0
+wrapt==1.14.1
