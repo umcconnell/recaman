@@ -1,5 +1,5 @@
 astroid==2.12.12
-autopep8==1.7.0
+autopep8==2.0.0
 isort==5.10.1
 lazy-object-proxy==1.8.0
 mccabe==0.7.0
