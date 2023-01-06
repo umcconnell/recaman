@@ -1,6 +1,6 @@
 astroid==2.12.13
 autopep8==2.0.1
-isort==5.10.1
+isort==5.11.4
 lazy-object-proxy==1.8.0
 mccabe==0.7.0
 pycodestyle==2.10.0
