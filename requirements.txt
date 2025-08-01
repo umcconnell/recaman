@@ -5,7 +5,7 @@ lazy-object-proxy==1.11.0
 mccabe==0.7.0
 pycodestyle==2.13.0
 pylint==3.3.6
-rope==1.13.0
+rope==1.14.0
 six==1.17.0
 typed-ast==1.5.5
 wrapt==1.17.2
