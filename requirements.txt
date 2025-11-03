@@ -1,4 +1,4 @@
-astroid==3.3.11
+astroid==4.0.1
 autopep8==2.3.2
 isort==6.0.1
 lazy-object-proxy==1.12.0
